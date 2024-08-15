@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fish Tycoon 2 Breed Finder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Wanted Fish</h1>
+      <form id="wantedForm">
+        <div id="inputWantedContainer"></div>
+      </form>
+      <h1>Available Fish</h1>
+      <form id="dynamicForm">
+        <div id="inputContainer"></div>
+        <button type="button" id="addInput">Add New Fish</button>
+        <button type="button" onclick="getFishInput()">Submit</button>
+      </form>
+      <h1 id="result-header" style="display: none;">Result</h1>
+      <div id="result-body" style="display: none;"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
